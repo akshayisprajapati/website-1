@@ -1,0 +1,150 @@
+
+.bd-navbar{
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-bottom: 0.75rem;
+	padding-left: 0px;
+	background-color: #0097a7;
+}
+body{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #eee;
+}
+
+header{
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+.bg-lavender{
+	background-color: lavender;
+}
+
+.sidebar {
+   height: 100%;
+   width: 180px;
+   top: 100;
+   left: 0;
+   position: fixed;
+   background-color: lavender;
+   padding-top: 20px;
+   border-right: 5px solid #fff;
+}
+
+.sidebar ul{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:260px;
+    position:fixed;
+    top:60px;
+    left:0;
+    background-color:#2b2626;
+}
+
+.sidebar ul li{
+    list-style:none;
+}
+
+.sidebar ul li a{
+    display:block;
+    font-family:'montserrat';
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:17px;
+    color:#fff;
+    position:relative;
+    padding:15px 0px 15px 25px;
+    transition:all 0.5s;
+}
+
+.sidebar ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+    background:#e3e9f7;
+    border-radius:40px 0 0 40px;
+    z-index:-1;
+    transition:all 1s;
+}
+.sidebar ul li a:hover{
+    color:#2b2626;
+}
+.sidebar ul li a:hover:before{
+    width:95%;
+}
+
+.wrapper{
+    margin-left:260px;
+	padding-top: 60px;
+}
+
+.section{
+}
+
+.box-area h2{
+    text-transform:uppercase;
+    font-size:30px;
+}
+
+.rid{
+	color: beige;
+}
+.search{
+	backface-visibility: inherit;
+	color: beige;
+}
+.form-check {
+	font-size: 20px;
+}
+.forget{
+	font-size: 20px;
+}
+.bi{
+	padding-left: 250px;
+}
+
+/* Contact */
+
+.col-xs-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.error{
+	color: red;
+}
+.contact-wrap {
+	background-image: url(https://colorlib.com/etc/cf/ContactFrom_v12/images/img-01.png);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position-x: right;
+}
+.info-wrap .dbox {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.info-wrap .dbox .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #eee;
+}
+.info-wrap .dbox p {
+    margin-bottom: 0;
+}
+.pl-3, .px-3 {
+    padding-left: 1rem !important;
+}
+.info-wrap .dbox .text {
+    width: calc(100% - 50px);
+}
